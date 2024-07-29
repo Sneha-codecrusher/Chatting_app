@@ -10,7 +10,9 @@ Client
 Server :The server module of the application waits for the client to connect to it. Then if connection is granted a client interacts communicates and connects to the server, it can mutually communicate with the server. The duty of the server is to let clients exchange the messages.
 
 Client : The client module is the one that utilizer sends requests to the server. Utilizer utilizes the client as the means to connect to the server. Once he establishes the connection, he can communicate to the connected server.
+
 Operational Concepts and Scenarios:
+
 Operation of the application based on the inputs given by the user: 
 When the run button is clicked then the chat form is initialized with a connection between the host and the client machine.  
 Note: server must be started at first before a client start.
